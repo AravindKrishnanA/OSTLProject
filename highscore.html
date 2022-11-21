@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Original Flappy Bird -JavaScript</title>
+        <link rel="stylesheet" href="index.css">
+        <link href="https://fonts.googleapis.com/css?family=Teko:700" rel="stylesheet">
+        <style>        
+            body{
+                background-image: url("./img/high-score.gif");
+                background-repeat: no-repeat;
+            }
+        </style>
+    </head>
+
+    <body onload="getHighscore()">
+        <h1>HIGHSCORES</h1>
+        <div class = "score" id = "first"></div>
+        <div class = "score" id = "second"></div>
+        <div class = "score" id = "third"></div>
+
+        <a href = './index.html' class="eightbit-btn" id="eightbit-btn2">HOME</a>
+
+        <!-- <button onclick="writeHighscore()">Click</button> -->
+        <script src="library.js"></script>
+        <script src="highscore.js"></script>
+    </body>
+</html>
